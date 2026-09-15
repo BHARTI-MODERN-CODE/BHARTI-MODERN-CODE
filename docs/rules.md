@@ -1,173 +1,111 @@
 # BHARTI MODERN CODE (BMC) — SYSTEM SPECIFICATION & RULES
 
----
+====================================================================
+Designed by EMPEROR AD | Final Zero-Exception Release
+====================================================================
 
 ## 1. CONJUNCTION ENGINE
 
 ### [A] Core Conjunctions (8 Connectors)
 1. `and` : Used to join two words, ideas, or clauses (Addition).
-2. `or`  : Used to present a choice between options (Alternative).
-3. `but` : Used to connect contrasting or opposing ideas (Contrast).
-4. `so`  : Used to show the result or outcome of an action (Consequence).
-5. `bec` : Used to explain the reason for an action (Causal) `<Shortened from 'because'>`.
-6. `if`  : Used to initiate a condition (Conditional Starter).
-7. `then`: Used to indicate the result or next step of a condition (Conditional Responder).
+2. `or` : Used to present a choice between options (Alternative).
+3. `bat` : Used to connect contrasting or opposing ideas (Contrast).
+4. `so` : Used to show the result or outcome of an action (Consequence).
+5. `bek` : Used to explain the reason for an action (Causal) <Shortened from 'because'>.
+6. `if` : Used to initiate a condition (Conditional Starter).
+7. `den` : Used to indicate the result or next step of a condition (Conditional Responder).
 8. `els` : Used to define an alternative outcome or condition (Otherwise/Else).
 
-### Structural Examples:
-* **Addition & Choice:**
-  * Code: `Ram and Shyam`
-  * Code: `Chai or Coffee`
-* **Contrast & Cause:**
-  * Code: `Va padh-ha-pura but na-pass-ha.` (He studied but did not pass.)
-  * Code: `Main andar raag-ha bec baarish ho-ha-pura.` (I stayed inside because it was raining.)
-* **Conditional Logic:**
-  * Code: `if tu padh-ha then tu pass-ha els tu fail-ha.` (If you study, then you will pass, else you will fail.)
-
-### Guidelines & Instructions:
-* **[Rule 1] INFIX PLACEMENT RULE:** Except for `if`, all other 7 conjunctions must be placed directly between two words, clauses, or sentences (Infix position).  
+### [B] Structural Guidelines
+* **Infix Placement Rule:** Except for `if`, all conjunctions must be placed directly between two words or clauses.
   * *Syntax:* `[Clause 1] + [Conjunction] + [Clause 2]`
-* **[Rule 2] IF-THEN-ELS STRUCTURE:** Conditional sentences must strictly follow this order:
-  * `if [Condition]`
-  * `then [Positive Outcome]`
-  * `els [Alternative/Negative Outcome]`
-* **[Rule 3] WHITESPACE MANDATE:** Exactly one space (whitespace) is required before and after every conjunction code so AI parsers can distinguish them from root words.
-* **[Rule 4] ZERO SYNONYM RULE:** Words like 'although', 'however', 'moreover', or 'therefore' do not exist in the dictionary. All complex relationships must be constructed exclusively using these 8 core conjunction codes.
+* **IF-THEN-ELS Structure:** Conditional logic must follow `if [Condition]` -> `den [Positive Outcome]` -> `els [Alternative/Negative Outcome]`.
+* **Whitespace Mandate:** Exactly one space (whitespace) before and after every conjunction.
+* **Zero Synonym Rule:** Words like 'although', 'however', or 'therefore' do not exist; all relationships use these 8 connectors.
 
 ---
 
-## 2. INTERROGATIVE ENGINE (`ki-`)
+## 2. INTERROGATIVE ENGINE (ki-)
 
 ### [A] Core Interrogative Operator
 * `ki-` : Universal Interrogative Marker
 
-### [B] Yes / No Questions
-* **Rule:** Place `ki-` at the very beginning of the clause.
-* **Syntax:** `ki- + [Subject] + [Verb Root] + [Aspect Suffix] + [Tense Suffix]`
-* **Examples:**
-  * `ki- tu kar-ra-ha?` (Are you doing?)
-  * `ki- va likh-ra-ga?` (Will he/she be writing?)
-
-### [C] Specific WH-Questions
-* **Rule:** Attach `ki-` directly as a prefix to core conceptual roots.
-1. **Who?** -> `ki-jan kar-ra-ha?` (`ki-` + `jan`/person)
-2. **What?** -> `ki-kriy tu kar-ra-ha?` (`ki-` + `kriy`/action or object)
-3. **Why / For What?** -> `ki-hetu tu kar-ra-ha?` (`ki-` + `hetu`/reason)
-4. **When?** -> `ki-at tu kar-ra-ha?` (`ki-` + `at`/time)
-5. **Where?** -> `ki-agr tu kar-ra-ha?` (`ki-` + `agr`/location)
-6. **How?** -> `ki-rit tu kar-ra-ha?` (`ki-` + `rit`/method)
-
-### [D] Combined Question & Negation
-* **Rule:** Use `ki-` at the sentence/clause level for questions, and prefix `na-` directly before the verb root for negation.
-* **Examples:**
-  * `ki-hetu tu na-kar-ra-ha?` (Why are you not doing?)
-  * `ki- tu na-kar-ra-ha?` (Are you not doing?)
-
-### Guidelines & Instructions:
-* **[Rule 1] SINGLE OPERATOR MANDATE:** Eliminates the need to memorize distinct interrogative words (who, where, when, why, how, what). A single prefix, `ki-`, attaches to fundamental roots to form all question types seamlessly.
-* **[Rule 2] FIXED WORD ORDER (NO INVERSION):** Unlike natural languages that alter word positions or introduce auxiliary verbs, BMC maintains a strictly unified word order.
-* **[Rule 3] ZERO AMBIGUITY:** Phrases with identical underlying logic merge into a single precise form (e.g., `ki-hetu`).
+### [B] Question Formats
+* **Yes / No Questions:** Place `ki-` at the very beginning of the clause.
+  * *Syntax:* `ki- + [Subject] + [Verb Root] + [Aspect Suffix] + [Tense Suffix]`
+* **Specific WH-Questions:** Attach `ki-` directly as a prefix to core conceptual roots:
+  * **Who?** `ki-jan` (`ki-` + person)
+  * **What?** `ki-kriy` (`ki-` + action/object)
+  * **Why / For What?** `ki-hetu` (`ki-` + reason)
+  * **When?** `ki-at` (`ki-` + time)
+  * **Where?** `ki-agr` (`ki-` + location)
+  * **How?** `ki-rit` (`ki-` + method)
 
 ---
 
-## 3. UNIFIED SUFFIX & ENGINE REGISTRY
-*(Version: Final Zero-Exception Release)*
+## 3. MASTER FOUNDATION RULES
 
-### 1. CORE ENGINE REGISTRY
+### [Rule 1] 100% PHONETIC RULE (पूर्ण ध्वन्यात्मकता नियम)
+* 1 Letter = 1 Sound.
+* Strictly no silent letters and no contextual sound variations.
+* Write exactly as spoken; speak exactly as written.
 
-* **[ENGINE 01] INTERROGATIVE ENGINE**
-  * Syntax Prefix: `[ki-]`
-  * Placement: Sentence prefix (Appended to the very beginning of the sentence)
-  * Description: Converts any declarative sentence into a question.
-  * Example: `ki- tum padh-ha?` (Are you reading?)
+### [Rule 2] ZERO EXCEPTIONS (शून्य अपवाद नियम)
+* 100% rule compliance with 0% edge-cases.
+* Every grammatical law applies universally without exception across the entire language.
 
-* **[ENGINE 02] UNIVERSAL NEGATION ENGINE**
-  * Syntax Prefix: `[na-]`
-  * Word Negation: `[na-] + [Root Word]` -> Negates only the specific Noun/Adjective (e.g., `na-gyan-ik` = Unwise / Ignorant).
-  * Sentence Negation: `[na-] + [Auxiliary Verb]` -> Negates the action or overall statement (e.g., `na-ha` = Is not / Does not).
+### [Rule 3] FIXED VERB SYSTEM (स्थिर क्रिया प्रणाली नियम)
+* **Immutable Verb Roots:** Root verbs never conjugate for Subject, Person, or Gender.
+* **Tense & Aspect System:** Designated strictly via fixed markers:
+  * **Tense Markers:** Present (`-ha`), Past (`-qi`), Future (`-ga`)
+  * **Aspect Markers:** Continuous (`-ra`), Perfect (`-si`)
 
-* **[ENGINE 03] TENSE SYSTEM ENGINE**
-  * Present Tense: `[-ha]` -> `padh-ha` (reads / is reading)
-  * Past Tense: `[-qi]` -> `padh-qi` (read / had read)
-  * Future Tense: `[-ga]` -> `padh-ga` (will read)
+### [Rule 4] NO GRAMMATICAL GENDER (व्याकरणिक लिंग का अभाव नियम)
+* 100% gender-neutral syntax.
+* No gender assignment for inanimate objects, nouns, adjectives, or verbs.
 
-* **[ENGINE 04] STACK HIERARCHY ENGINE**
-  * Structural Limit: Maximum of two (2) Suffixes stacked on a single Root Word.
-  * Standard Order: `[Root Word] -> [-ji] -> [-s] -> [Case Marker]`
-  * Example: `manushya-ji-s-ne` (Respected people [Subject Case])
+### [Rule 5] UNIVERSAL PLURAL RULE (एकल बहुवचन नियम)
+* Universal plural suffix: `"-s"`
+* Formula: `[Root Noun] + [-s]` *(e.g., Ghar-s, Mitqra-s)*
 
----
+### [Rule 6] LOGICAL WORD BUILDING (तार्किक शब्द-निर्माण नियम)
+Deterministic prefix and suffix engine for expanding vocabulary:
+1. **Opposite / Negative Prefix:** `Na-` *(e.g., Na-satqya = False)*
+2. **State / Quality Suffix:** `-ta` *(e.g., Dayaa-ta = Compassion)*
+3. **Doer / Person Suffix:** `-va` *(e.g., Kala-va = Artist)*
+4. **Study / Science Suffix:** `-vid` *(e.g., Jeeva-vid = Biology)*
+5. **Process / Action Suffix:** `-an` *(e.g., Shudqh-an = Purification)*
 
-### 2. MASTER SUFFIX REGISTRY
+### [Rule 7] STRICT SOV WORD ORDER (निश्चित वाक्य संरचना नियम)
+* Fixed syntax sequence: **Subject + Object + Verb (SOV)**.
+* Zero word-order permutations allowed for 0% ambiguity.
 
-* **[SUFFIX 01] ADJECTIVE MARKER `[-ik]`**
-  * Category: Grammar Modifier (Adjective)
-  * Usage: Converts a Root Word/Noun into an Adjective.
-  * Code Spec: `[Root] + [-ik]`
-  * Example: `gyan-ik` (Wise / Knowledgeable)
-
-* **[SUFFIX 02] ADVERB MARKER `[-vat]`**
-  * Category: Grammar Modifier (Adverb)
-  * Usage: Modifies a Verb; placed directly before the Main Verb.
-  * Code Spec: `[Root] + [-vat]`
-  * Example: `dhyan-vat` (Carefully / Attentively)
-
-* **[SUFFIX 03] STUDY / SCIENCE MARKER `[-vid]`**
-  * Category: Domain Classification
-  * Usage: Denotes a discipline, field of study, or scientific domain.
-  * Code Spec: `[Root] + [-vid]`
-  * Example: `jeev-vid` (Biology / Life Science)
-
-* **[SUFFIX 04] PLURAL MARKER `[-s]`**
-  * Category: Number Marker
-  * Usage: Pluralizes a Noun.
-  * Code Spec: `[Root] + [-s]`
-  * Example: `ghar-s` (Houses)
-
-* **[SUFFIX 05] HONORIFIC MARKER `[-ji]`**
-  * Category: Formal / Respect Marker
-  * Usage: Denotes respect; attached exclusively to Nouns/Pronouns.
-  * Rule Note: `'ji'` as an independent verb root is deprecated to eliminate overlap.
-  * Code Spec: `[Noun/Pronoun] + [-ji]`
-  * Example: `Ram-ji` (Respected Ram)
-
-* **[SUFFIX 06] CONTINUOUS ASPECT MARKER `[-rah]`**
-  * Category: Aspect System
-  * Usage: Denotes progressive/ongoing action (-ing form).
-  * Code Spec: `[Root Verb] + [-rah]`
-  * Example: `padh-rah` (Reading / In progress)
-
-* **[SUFFIX 07] PERFECT ASPECT MARKER `[-siddh]`**
-  * Category: Aspect System
-  * Usage: Denotes completed action (Perfect aspect).
-  * Code Spec: `[Root Verb] + [-siddh]`
-  * Example: `kriy-siddh` (Completed / Has done)
+### [Rule 8] LIMITED & UNIVERSAL PHONEMES (सीमित ध्वनियाँ नियम)
+* Restricted phoneme set optimized for easy pronunciation and 1:1 QWERTY typing.
 
 ---
 
-### 3. CASE MARKER SUFFIXES
+## 4. MASTER SUFFIX & ENGINE REGISTRY
 
-* **[CASE 01] ERGATIVE (Subject):** `[-ne]` -> Example: `Ram-ji-ne` (Ram [Subject])
-* **[CASE 02] ACCUSATIVE (Direct Object):** `[-ko]` -> Example: `pustak-ko` (Book [Object])
-* **[CASE 03] INSTRUMENTAL / ABLATIVE:** `[-se]` -> Example: `pen-se` (By/With pen)
-* **[CASE 04] GENITIVE (Possessive):** `[-ka]` -> Example: `Ram-ka` (Ram's)
-* **[CASE 05] LOCATIVE-IN (Position In):** `[-me]` -> Example: `ghar-me` (In house)
-* **[CASE 06] LOCATIVE-ON (Position On):** `[-par]` -> Example: `miz-par` (On table)
+### [A] Suffix Registry
+* `[-ik]` : Adjective Marker *(e.g., gyan-ik = Wise)*
+* `[-vat]` : Adverb Marker *(e.g., dhyan-vat = Carefully)*
+* `[-vid]` : Study / Science Marker *(e.g., jeeva-vid = Biology)*
+* `[-s]` : Plural Marker *(e.g., ghar-s = Houses)*
+* `[-ji]` : Honorific / Respect Marker *(e.g., Ram-ji = Respected Ram)*
+* `[-ra]` : Continuous Aspect Marker *(e.g., padh-ra = Reading)*
+* `[-si]` : Perfect Aspect Marker *(e.g., padh-si = Completed Reading)*
 
----
+### [B] Case Marker Suffixes
+* **Ergative (Subject):** `[-ne]` *(e.g., Ram-ji-ne)*
+* **Accusative (Direct Object):** `[-ko]` *(e.g., pustak-ko)*
+* **Instrumental / Ablative:** `[-se]` *(e.g., pen-se)*
+* **Genitive (Possessive):** `[-ka]` *(e.g., Ram-ka)*
+* **Locative-In (Position In):** `[-me]` *(e.g., ghar-me)*
+* **Locative-On (Position On):** `[-par]` *(e.g., miz-par)*
 
-## 4. HONORIFIC MARKER SYSTEM (`-ji`)
-
-### Formal vs Informal Register:
-* Informal: `tu go-ha` (You go)
-* Formal: `tu-ji go-ha` (You go - Respected)
-* Informal: `Ram`
-* Formal: `Ram-ji` (Ram - Respected)
-
-### Guidelines & Instructions:
-* **[Rule 1] TARGET SPECIFICITY RULE:** The honorific marker `-ji` must strictly attach to the specific noun or pronoun being respected using a hyphen (`-`). It must not be attached to inanimate objects or placed at the end of a sentence. (Example: `Ram-ji aa-ha`)
-* **[Rule 2] SELECTIVE HONORIFIC RULE (Multiple Nouns / Pronouns):** When a sentence contains two nouns or pronouns and only one person requires respect, attach `-ji` strictly to that specific individual. If both require respect, attach `-ji` to each independently.
-  * *Single Respect:* `Ram-ji aur Shyam aa-ha` (Respected Ram and Shyam are coming)
-  * *Dual Respect:* `Ram-ji aur Shyam-ji aa-ha` (Respected Ram and Respected Shyam are coming)
-* **[Rule 3] PRONOUN IMMUTABILITY:** Core pronouns never alter their base form (`tu` or `wo`). Simply appending `-ji` shifts the sentence from Informal to Formal register seamlessly.
-* **[Rule 4] 1:1 HYPHEN ATTACHMENT RULE:** To ensure 1:1 error-free NLP parsing and AI algorithmic accuracy, `-ji` must always be appended to the root word using a hyphen (`-`).
+### [C] Stack Hierarchy Rule
+* Structural Limit: Maximum of two (2) Suffixes stacked on a single Root Word.
+* Standard Order: `[Root Word] -> [-ji] -> [-s] -> [Case Marker]`
+* Example: `manushya-ji-s-ne` (Respected people [Subject Case])
+* 
