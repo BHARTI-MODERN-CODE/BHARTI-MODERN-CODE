@@ -6,17 +6,19 @@ Designed by EMPEROR AD | Final Zero-Exception Release
 
 ## 1. CONJUNCTION ENGINE
 
-### [A] Core Conjunctions (8 Connectors)
+### [A] Core Conjunctions (5 Core Connectors)
 1. `and` : Used to join two words, ideas, or clauses (Addition).
 2. `or` : Used to present a choice between options (Alternative).
 3. `bat` : Used to connect contrasting or opposing ideas (Contrast).
 4. `so` : Used to show the result or outcome of an action (Consequence).
 5. `bek` : Used to explain the reason for an action (Causal) <Shortened from 'because'>.
+
+### [B] Subordinating Conjunctions (3 Connectors)
 6. `if` : Used to initiate a condition (Conditional Starter).
 7. `den` : Used to indicate the result or next step of a condition (Conditional Responder).
 8. `els` : Used to define an alternative outcome or condition (Otherwise/Else).
 
-### [B] Structural Guidelines
+### [C] Structural Guidelines
 * **Infix Placement Rule:** Except for `if`, all conjunctions must be placed directly between two words or clauses.
   * *Syntax:* `[Clause 1] + [Conjunction] + [Clause 2]`
 * **IF-THEN-ELS Structure:** Conditional logic must follow `if [Condition]` -> `den [Positive Outcome]` -> `els [Alternative/Negative Outcome]`.
@@ -34,12 +36,13 @@ Designed by EMPEROR AD | Final Zero-Exception Release
 * **Yes / No Questions:** Place `ki-` at the very beginning of the clause.
   * *Syntax:* `ki- + [Subject] + [Verb Root] + [Aspect Suffix] + [Tense Suffix]`
 * **Specific WH-Questions:** Attach `ki-` directly as a prefix to core conceptual roots:
-  * **Who?** `ki-jan` (`ki-` + person)
-  * **What?** `ki-kriy` (`ki-` + action/object)
-  * **Why / For What?** `ki-hetu` (`ki-` + reason)
-  * **When?** `ki-at` (`ki-` + time)
-  * **Where?** `ki-agr` (`ki-` + location)
-  * **How?** `ki-rit` (`ki-` + method)
+  * **Who? (Person):** `ki-jan` (`ki-` + person)
+  * **What? (Thing):** `ki-vastu` (`ki-` + thing)
+  * **Where? (Place):** `ki-jaga` (`ki-` + location)
+  * **When? (Time):** `ki-tem` (`ki-` + time)
+  * **Why? (Reason):** `ki-hetu` (`ki-` + reason)
+  * **How? (Manner):** `ki-rit` (`ki-` + method)
+  * **How much/many? (Quantity):** `ki-matra` (`ki-` + quantity)
 
 ---
 
@@ -66,7 +69,7 @@ Designed by EMPEROR AD | Final Zero-Exception Release
 
 ### [Rule 5] UNIVERSAL PLURAL RULE (एकल बहुवचन नियम)
 * Universal plural suffix: `"-s"`
-* Formula: `[Root Noun] + [-s]` *(e.g., Ghar-s, Mitqra-s)*
+* Formula: `[Root Noun] + [-s]` *(e.g., Ghar-s, Mitra-s)*
 
 ### [Rule 6] LOGICAL WORD BUILDING (तार्किक शब्द-निर्माण नियम)
 Deterministic prefix and suffix engine for expanding vocabulary:
@@ -90,6 +93,11 @@ Deterministic prefix and suffix engine for expanding vocabulary:
 ### [A] Suffix Registry
 * `[-ik]` : Adjective Marker *(e.g., gyan-ik = Wise)*
 * `[-vat]` : Adverb Marker *(e.g., dhyan-vat = Carefully)*
+* `[-ex]` : Medium-High Intensity *(e.g., sundar-ex = Very Beautiful)*
+* `[-max]` : Maximum Intensity *(e.g., sundar-max = Most Beautiful)*
+* `[-mor]` : Comparative Marker *(e.g., sundar-mor = More Beautiful)*
+* `[-abl]` : Ability Marker *(e.g., padh-abl = Readable)*
+* `[-ful]` : Abundance Marker *(e.g., rang-ful = Colorful)*
 * `[-vid]` : Study / Science Marker *(e.g., jeeva-vid = Biology)*
 * `[-s]` : Plural Marker *(e.g., ghar-s = Houses)*
 * `[-ji]` : Honorific / Respect Marker *(e.g., Ram-ji = Respected Ram)*
@@ -101,6 +109,13 @@ Deterministic prefix and suffix engine for expanding vocabulary:
 * **Accusative (Direct Object):** `[-ko]` *(e.g., pustak-ko)*
 * **Instrumental / Ablative:** `[-se]` *(e.g., pen-se)*
 * **Genitive (Possessive):** `[-ka]` *(e.g., Ram-ka)*
+* **Locative-In (Position In):** `[-me]` *(e.g., ghar-me)*
+* **Locative-On (Position On):** `[-par]` *(e.g., miz-par)*
+
+### [C] Stack Hierarchy Rule
+* Structural Limit: Maximum of two (2) Suffixes stacked on a single Root Word.
+* Standard Order: `[Root Word] -> [-ji] -> [-s] -> [Case Marker]`
+* Example: `manushya-ji-s-ne` (Respected people [Subject Case])
 * **Locative-In (Position In):** `[-me]` *(e.g., ghar-me)*
 * **Locative-On (Position On):** `[-par]` *(e.g., miz-par)*
 
