@@ -30,16 +30,16 @@ Project Handle: bharti_modern_code
 ---
 
 ## 3. TENSE & ASPECT STACK ORDER (काल और पक्ष पदानुक्रम नियम)
-* **Rule:** Aspect and tense markers are completely independent words separated by a single space, following a strict structural hierarchy where the tense marker always appears at the very end.
+* **Rule:** Aspect and tense markers are completely independent words separated by a strict single space. They are never joined or hyphenated together. The tense marker always appears at the very end.
 * **Structural Formula:** `[Verb Root] + [Aspect Marker] + [Tense Marker]`
 * **Aspect Markers:**
-  * `rah` : Continuous Aspect (निरंतरता पक्ष)
+  * `ra` : Continuous Aspect (निरंतरता पक्ष) — *Note: Strictly 'ra', never 'rah'.*
   * `si` : Perfect Aspect (पूर्ण पक्ष)
 * **Tense Markers:**
   * `ha` : Present Tense (वर्तमान)
   * `qi` : Past Tense (भूत)
   * `ga` : Future Tense (भविष्य)
-  * *Example:* `padh-rah-ha` (Is reading / Reading present)
+  * *Example:* `padh ra ha` (Is reading / Reading present — completely separated by spaces)
 
 ---
 
@@ -63,7 +63,7 @@ Project Handle: bharti_modern_code
 ---
 
 ## 6. INTERROGATIVE STRUCTURE (प्रश्नवाचक संरचना नियम)
-* **Yes / No Questions:** Formed by placing the universal interrogative operator `ki` at the very beginning of the clause.
+* **Yes / No Questions:** Formed by placing the universal interrogative operator `ki` at the very beginning of the clause, followed by spaces.
   * *Formula:* `ki + [Subject] + [Verb Root] + [Aspect] + [Tense]`
 * **Specific WH-Questions:** Formed by prefixing `ki` directly to core conceptual roots (1 Sound = 1 Symbol):
   * `kijan` (Who - Person)
