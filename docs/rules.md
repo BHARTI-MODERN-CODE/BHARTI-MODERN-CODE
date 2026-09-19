@@ -2,6 +2,7 @@
 
 ====================================================================
 Designed by EMPEROR AD | Final Zero-Exception Release
+Project Handle: bharti_modern_code
 ====================================================================
 
 ## 1. CONJUNCTION ENGINE
@@ -30,19 +31,24 @@ Designed by EMPEROR AD | Final Zero-Exception Release
 ## 2. INTERROGATIVE ENGINE (ki-)
 
 ### [A] Core Interrogative Operator
-* `ki-` : Universal Interrogative Marker
+* `ki` : Universal Interrogative Marker
 
 ### [B] Question Formats
-* **Yes / No Questions:** Place `ki-` at the very beginning of the clause.
-  * *Syntax:* `ki- + [Subject] + [Verb Root] + [Aspect Suffix] + [Tense Suffix]`
-* **Specific WH-Questions:** Attach `ki-` directly as a prefix to core conceptual roots:
-  * **Who? (Person):** `ki-jan` (`ki-` + person)
-  * **What? (Thing):** `ki-vastu` (`ki-` + thing)
-  * **Where? (Place):** `ki-jaga` (`ki-` + location)
-  * **When? (Time):** `ki-tem` (`ki-` + time)
-  * **Why? (Reason):** `ki-hetu` (`ki-` + reason)
-  * **How? (Manner):** `ki-rit` (`ki-` + method)
-  * **How much/many? (Quantity):** `ki-matra` (`ki-` + quantity)
+* **Yes / No Questions:** Place `ki` at the very beginning of the clause with a single space.
+  * *Syntax:* `ki + [Subject] + [Verb Root] + [Aspect Suffix] + [Tense Suffix]`
+* **Specific WH-Questions (Conceptual Categories):** Attach `ki` directly as a prefix to core conceptual roots (1 Sound = 1 Symbol):
+  * **Who? (Person):** `kijan` (`ki` + person)
+  * **What? (Thing):** `kivastu` (`ki` + thing/object)
+  * **Where? (Place):** `kijaga` (`ki` + location/place)
+  * **When? (Time):** `kitem` (`ki` + time)
+  * **Why? (Reason):** `ki-hetu` या `kihetu` (`ki` + reason/purpose)
+  * **How? (Manner):** `kirit` (`ki` + method/manner)
+  * **How much/many? (Quantity):** `kimatra` (`ki` + quantity/amount)
+
+### [C] Combined Question & Negation
+* **Rule:** Use `ki` at the sentence/clause level for questions, and prefix `na-` directly before the verb root for negation.
+  * *Example 1:* `kihetu tu nakar ra ha?` (Why are you not doing?)
+  * *Example 2:* `ki tu nakar ra ha?` (Are you not doing?)
 
 ---
 
@@ -102,25 +108,9 @@ Deterministic prefix and suffix engine for expanding vocabulary:
 * `[’s]` : Plural Marker *(e.g., ghar’s)*
 * `[-ji]` : Honorific / Respect Marker (Independent word with single space) *(e.g., Ram ji)*
 * `[rah]` : Continuous Aspect Marker 
-* `[si]` : Perfect Aspect Marker 
+* `[si]` : Perfect Aspect Marker *(e.g., padh-si = Completed Reading)*
 
 ### [B] Case Marker Suffixes (Attached with a single space)
-* **Subjective / Agentive:** `[ne]`
-* **Objective / Accusative:** `[ko]`
-* **Possessive / Genitive:** `[ka]`
-* **Instrumental / Ablative:** `[se]`
-* **Other Markers:** `[te]`, `[pe]`, `[me]`, `[ti]`, `[vaat]`, `[saatq]`
-
-### [C] Tense Markers (Written with a single space)
-* **Present:** `[ha]`
-* **Past:** `[qi]`
-* **Future:** `[ga]`
-
-### [D] Honorific Rules
-* **Target Specificity & Independent Space:** "ji" must be written as a standalone independent word separated by a single space immediately following the specific living entity being respected.
-* `[-si]` : Perfect Aspect Marker *(e.g., padh-si = Completed Reading)*
-
-### [B] Case Marker Suffixes
 * **Ergative (Subject):** `[-ne]` *(e.g., Ram-ji-ne)*
 * **Accusative (Direct Object):** `[-ko]` *(e.g., pustak-ko)*
 * **Instrumental / Ablative:** `[-se]` *(e.g., pen-se)*
@@ -128,15 +118,14 @@ Deterministic prefix and suffix engine for expanding vocabulary:
 * **Locative-In (Position In):** `[-me]` *(e.g., ghar-me)*
 * **Locative-On (Position On):** `[-par]` *(e.g., miz-par)*
 
-### [C] Stack Hierarchy Rule
-* Structural Limit: Maximum of two (2) Suffixes stacked on a single Root Word.
-* Standard Order: `[Root Word] -> [-ji] -> [-s] -> [Case Marker]`
-* Example: `manushya-ji-s-ne` (Respected people [Subject Case])
-* **Locative-In (Position In):** `[-me]` *(e.g., ghar-me)*
-* **Locative-On (Position On):** `[-par]` *(e.g., miz-par)*
+### [C] Tense Markers (Written with a single space)
+* **Present:** `[ha]`
+* **Past:** `[qi]`
+* **Future:** `[ga]`
 
-### [C] Stack Hierarchy Rule
-* Structural Limit: Maximum of two (2) Suffixes stacked on a single Root Word.
-* Standard Order: `[Root Word] -> [-ji] -> [-s] -> [Case Marker]`
-* Example: `manushya-ji-s-ne` (Respected people [Subject Case])
+### [D] Honorific Rules & Stack Hierarchy
+* **Target Specificity & Independent Space:** "ji" must be written as a standalone independent word separated by a single space immediately following the specific living entity being respected.
+* **Structural Limit:** Maximum of two (2) Suffixes stacked on a single Root Word.
+* **Standard Order:** `[Root Word] -> [-ji] -> [-s] -> [Case Marker]`
+* **Example:** `manushya-ji-s-ne` (Respected people [Subject Case])
 * 
