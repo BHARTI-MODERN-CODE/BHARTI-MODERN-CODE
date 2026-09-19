@@ -19,9 +19,9 @@ Designed by EMPEROR AD | Final Zero-Exception Release
 8. `els` : Used to define an alternative outcome or condition (Otherwise/Else).
 
 ### [C] Structural Guidelines
-* **Infix Placement Rule:** Except for `if`, all conjunctions must be placed directly between two words or clauses.
+* **Infix Placement Rule:** Except for `if`, all core conjunctions must be placed directly between two words or clauses with a single space.
   * *Syntax:* `[Clause 1] + [Conjunction] + [Clause 2]`
-* **IF-THEN-ELS Structure:** Conditional logic must follow `if [Condition]` -> `den [Positive Outcome]` -> `els [Alternative/Negative Outcome]`.
+* **Subordinating Placement Rule:** Subordinating conjunctions (`den`, `els`) and conditional starter `if` are structured to manage conditional flows precisely.
 * **Whitespace Mandate:** Exactly one space (whitespace) before and after every conjunction.
 * **Zero Synonym Rule:** Words like 'although', 'however', or 'therefore' do not exist; all relationships use these 8 connectors.
 
@@ -59,17 +59,17 @@ Designed by EMPEROR AD | Final Zero-Exception Release
 
 ### [Rule 3] FIXED VERB SYSTEM (स्थिर क्रिया प्रणाली नियम)
 * **Immutable Verb Roots:** Root verbs never conjugate for Subject, Person, or Gender.
-* **Tense & Aspect System:** Designated strictly via fixed markers:
-  * **Tense Markers:** Present (`-ha`), Past (`-qi`), Future (`-ga`)
-  * **Aspect Markers:** Continuous (`-ra`), Perfect (`-si`)
+* **Tense & Aspect System:** Designated strictly via fixed markers with a single space:
+  * **Tense Markers:** Present (`ha`), Past (`qi`), Future (`ga`)
+  * **Aspect Markers:** Continuous (`rah`), Perfect (`si`)
 
 ### [Rule 4] NO GRAMMATICAL GENDER (व्याकरणिक लिंग का अभाव नियम)
 * 100% gender-neutral syntax.
 * No gender assignment for inanimate objects, nouns, adjectives, or verbs.
 
 ### [Rule 5] UNIVERSAL PLURAL RULE (एकल बहुवचन नियम)
-* Universal plural suffix: `"-s"`
-* Formula: `[Root Noun] + [-s]` *(e.g., Ghar-s, Mitra-s)*
+* Universal plural suffix: `"[’s]"` (written without space attached directly to the root noun).
+* Formula: `[Root Noun][’s]` *(e.g., ghar’s)*
 
 ### [Rule 6] LOGICAL WORD BUILDING (तार्किक शब्द-निर्माण नियम)
 Deterministic prefix and suffix engine for expanding vocabulary:
@@ -99,9 +99,25 @@ Deterministic prefix and suffix engine for expanding vocabulary:
 * `[-abl]` : Ability Marker *(e.g., padh-abl = Readable)*
 * `[-ful]` : Abundance Marker *(e.g., rang-ful = Colorful)*
 * `[-vid]` : Study / Science Marker *(e.g., jeeva-vid = Biology)*
-* `[-s]` : Plural Marker *(e.g., ghar-s = Houses)*
-* `[-ji]` : Honorific / Respect Marker *(e.g., Ram-ji = Respected Ram)*
-* `[-ra]` : Continuous Aspect Marker *(e.g., padh-ra = Reading)*
+* `[’s]` : Plural Marker *(e.g., ghar’s)*
+* `[-ji]` : Honorific / Respect Marker (Independent word with single space) *(e.g., Ram ji)*
+* `[rah]` : Continuous Aspect Marker 
+* `[si]` : Perfect Aspect Marker 
+
+### [B] Case Marker Suffixes (Attached with a single space)
+* **Subjective / Agentive:** `[ne]`
+* **Objective / Accusative:** `[ko]`
+* **Possessive / Genitive:** `[ka]`
+* **Instrumental / Ablative:** `[se]`
+* **Other Markers:** `[te]`, `[pe]`, `[me]`, `[ti]`, `[vaat]`, `[saatq]`
+
+### [C] Tense Markers (Written with a single space)
+* **Present:** `[ha]`
+* **Past:** `[qi]`
+* **Future:** `[ga]`
+
+### [D] Honorific Rules
+* **Target Specificity & Independent Space:** "ji" must be written as a standalone independent word separated by a single space immediately following the specific living entity being respected.
 * `[-si]` : Perfect Aspect Marker *(e.g., padh-si = Completed Reading)*
 
 ### [B] Case Marker Suffixes
