@@ -14,7 +14,7 @@ Project Handle: bharti_modern_code
 
 ## 2. CASE MARKER SYSTEM (विभक्ति चिह्न प्रणाली)
 * **Rule:** Grammatical relationships are explicitly defined by placing dedicated case markers after nouns or pronouns, separated by a single space.
-* **Structural Formula:** `[Noun / Pronoun] + [Case Marker] + [Position Word (if applicable)]`
+* **Structural Formula:** `[Noun / Pronoun / Plural / Honorific] + [Case Marker]`
 * **Core Case Markers:**
   1. `ne` : Agentive / Subject (कर्ता कारक)
   2. `ko` : Accusative / Direct Object (कर्म कारक)
@@ -29,28 +29,28 @@ Project Handle: bharti_modern_code
 
 ---
 
-## 3. TENSE & ASPECT STACK ORDER (काल और पक्ष पदानुक्रम नियम)
-* **Rule:** Aspect and tense markers are completely independent words separated by a strict single space. They are never joined or hyphenated together. The tense marker always appears at the very end.
+## 3. TENSE & ASPECT INDEPENDENT SYSTEM (काल और पक्ष स्वतंत्र प्रणाली)
+* **Rule:** Aspect and tense markers are completely independent words. They are **never attached** to the verb root; instead, each marker is strictly separated by a single space.
 * **Structural Formula:** `[Verb Root] + [Aspect Marker] + [Tense Marker]`
-* **Aspect Markers:**
-  * `ra` : Continuous Aspect (निरंतरता पक्ष) — *Note: Strictly 'ra', never 'rah'.*
+* **Aspect Markers (Independent Words with Single Space):**
+  * `ra` : Continuous Aspect (निरंतरता पक्ष)
   * `si` : Perfect Aspect (पूर्ण पक्ष)
-* **Tense Markers:**
+* **Tense Markers (Independent Words with Single Space):**
   * `ha` : Present Tense (वर्तमान)
   * `qi` : Past Tense (भूत)
   * `ga` : Future Tense (भविष्य)
-  * *Example:* `padh ra ha` (Is reading / Reading present — completely separated by spaces)
+  * *Example:* `kar ra ha` (Is doing / Doing present)
 
 ---
 
 ## 4. HONORIFIC & PLURAL INTEGRATION (आदरसूचक और बहुवचन एकीकरण)
 * **Universal Plural Rule:** Plurality is indicated by attaching the universal suffix `['s]` directly to the root noun without any whitespace.
   * *Formula:* `[Root Noun]['s]` *(e.g., ghar's)*
-* **Honorific Marker Rule:** Respect is indicated using the independent marker `ji`, written as a standalone word separated by a single space immediately after the specific living entity.
-  * *Formula:* `[Noun / Pronoun] + [ji]` *(e.g., Ram ji)*
-* **Stack Hierarchy Rule:** When combining multiple suffixes/markers on a single root word, a strict maximum limit of two stacked layers is enforced in this exact sequence:
-  * *Standard Order:* `[Root Word] -> [-ji] -> ['s] -> [Case Marker]`
-  * *Example:* `manushya-ji-s-ne` (Respected people [Subject Case])
+* **Honorific Marker Rule:** Respect is indicated using the independent marker `ji`, written as a standalone word separated by a single space immediately after the noun/plural entity.
+  * *Formula:* `[Noun / Plural] + [ji]` *(e.g., manushya's ji)*
+* **Correct Stack Hierarchy Rule:** When combining multiple suffixes/markers on a single root word, the strict sequence is:
+  * *Standard Order:* `[Root Word] -> [’s] -> [ji (with space)] -> [Case Marker]`
+  * *Example:* `manushya’s ji ne` (By respected people [Subject Case])
 
 ---
 
@@ -63,8 +63,8 @@ Project Handle: bharti_modern_code
 ---
 
 ## 6. INTERROGATIVE STRUCTURE (प्रश्नवाचक संरचना नियम)
-* **Yes / No Questions:** Formed by placing the universal interrogative operator `ki` at the very beginning of the clause, followed by spaces.
-  * *Formula:* `ki + [Subject] + [Verb Root] + [Aspect] + [Tense]`
+* **Yes / No Questions:** Formed by placing the universal interrogative operator `ki` at the very beginning of the clause with a single space.
+  * *Formula:* `ki + [Subject] + [Verb Root] + [ra / si] + [ha / qi / ga]`
 * **Specific WH-Questions:** Formed by prefixing `ki` directly to core conceptual roots (1 Sound = 1 Symbol):
   * `kijan` (Who - Person)
   * `kivastu` (What - Thing)
@@ -74,7 +74,7 @@ Project Handle: bharti_modern_code
   * `kirit` (How - Manner)
   * `kimatra` (How much/many - Quantity)
 * **Negation in Questions:** The negative prefix `na-` is prefixed directly before the verb root.
-  * *Formula:* `ki + [Subject] + [na-] + [Verb Root] + [Aspect] + [Tense]`
+  * *Formula:* `ki + [Subject] + [na-] + [Verb Root] + [ra / si] + [ha / qi / ga]`
 
 ====================================================================
 Designed by EMPEROR AD | Zero-Exception Framework
